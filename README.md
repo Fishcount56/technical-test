@@ -11,7 +11,7 @@ Change the config.json on config file with your config before migrate the databa
     "development": {
         "username": "root",
         "password": null,
-        "database": "new_database_2",
+        "database": "[your database]",
         "host": "127.0.0.1",
         "dialect": "mysql"
     }
