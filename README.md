@@ -43,6 +43,7 @@ This is some endpoint that you can use only as an admin
     [DELETE] http://localhost:[yourport]/api/v1/deleteBook/id=:id
 
 this is someendpoint that you can use without loggin as admin
+
     [POST] http://localhost:[yourport]/api/v1/login
     [POST] http://localhost:[yourport]/api/v1/register
     [GET]  http://localhost:[yourport]/api/v1/books
