@@ -9,12 +9,13 @@ Run this command from the directory when you first clone
 Change the config.json on config file with your config before migrate the database
 
     "development": {
-    "username": "root",
-    "password": null,
-    "database": "new_database_2",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  }
+        "username": "root",
+        "password": null,
+        "database": "new_database_2",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+        }
+    
 
 Then run this command for migrate the database
 
