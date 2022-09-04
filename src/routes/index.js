@@ -13,7 +13,7 @@ router.get('/users', auth, getAllUser)
 router.post('/addBook', auth, addBook)
 router.get('/books', allBook)
 router.get('/book/id=:id', singleBook)
-router.delete('/book/id=:id', auth, deleteBook)
-router.patch('/book/id=:id', auth, updateBook)
+router.delete('/deleteBook/id=:id', auth, deleteBook)
+router.patch('/updateBook/id=:id', auth, updateBook)
 
 module.exports = router
