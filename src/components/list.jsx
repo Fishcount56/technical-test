@@ -21,8 +21,6 @@ const List = ({todo, setTodo, setEdit}) => {
         setTodo(todo.filter((todo) => todo.id !== id))
     }
 
-    console.log(todo)
-
     return(
         <div>
             {todo.map((item) => (
